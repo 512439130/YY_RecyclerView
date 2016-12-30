@@ -51,7 +51,7 @@ public class StaggeredAdapter extends SimpleAdapter{
         setUpItemEvent(holder);
     }
     public void addData(int pos) {
-        mDatas.add(pos, "Insert Staggered One");
+        mDatas.add(pos, "Insert Staggered test");
         notifyItemInserted(pos);
     }
 
